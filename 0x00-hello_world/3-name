@@ -1,3 +1,2 @@
-VimCrypt~03!≤▓и├$
-бя_
-ЁRлs╧Па┘°yС╡A╕о▐,х║|е?╨Лu}н$л\╬≥+╘
+#!/bin/bash
+gcc $CFILE -o cisfun
