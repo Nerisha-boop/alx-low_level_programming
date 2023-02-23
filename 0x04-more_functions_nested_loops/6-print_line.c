@@ -2,24 +2,19 @@
 
 /**
  * print_line - function that draws a straight line in the term
- * @n: in put number
+ * @n: The number of _ characters to be printed out.
  * Return: straight line
  */
 void print_line(int n)
 {
 int co;
 
-if (n <= 0)
+if (n > 0)
 {
-_putchar('\n');
-}
-
-else
-{
-for (co = 1; co <= n; co++)
+for (line = 0; line <= ; line++)
 {
 _putchar('_');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
