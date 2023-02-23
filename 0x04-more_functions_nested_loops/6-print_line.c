@@ -1,25 +1,20 @@
 #include "main.h"
+
 /**
- * print_line - Draws a straight line according to parameter
- * @n: The number of lines to draw
- * Return: empty
+ * print_line - print an underscore characters
+ * @n: number of times to print _
  */
 
 void print_line(int n)
 {
-	int co;
+	int i;
 
-	if (n <= 0)
+	if (n > 0)
 	{
-	_putchar('\n');
-	}
-
-	else
-	{
-		for (co = 1; co <= n; co++)
+		for (i = 0; i < n; i++)
 		{
 			_putchar('_');
 		}
-	_putchar('\n');
 	}
+	_putchar('\n');
 }
