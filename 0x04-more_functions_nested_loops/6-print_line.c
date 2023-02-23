@@ -1,20 +1,25 @@
 #include "main.h"
-
 /**
- * print_line - function that draws a straight line in the term
- * @n: The number of _ characters to be printed out.
- * Return: straight line
+ * print_line - Draws a straight line according to parameter
+ * @n: The number of lines to draw
+ * Return: empty
  */
+
 void print_line(int n)
 {
-int co;
+	int co;
 
-if (n > 0)
-{
-for (line = 0; line <= ; line++)
-{
-_putchar('_');
-}
-}
-_putchar('\n');
+	if (n <= 0)
+	{
+	_putchar('\n');
+	}
+
+	else
+	{
+		for (co = 1; co <= n; co++)
+		{
+			_putchar('_');
+		}
+	_putchar('\n');
+	}
 }
