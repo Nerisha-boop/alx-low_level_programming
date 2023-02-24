@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -16,9 +17,9 @@ void print_square(int size)
 		{
 			for (j = 0; j < size; j++)
 				putchar('#');
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 	else
-		_putchar('\n');
+		putchar('\n');
 }
