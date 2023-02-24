@@ -7,9 +7,11 @@
 
 void print_numbers(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i <= 9; i++)
-		_putchar (i + '0');
-	_putchar ('\n');
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	putchar(10);
 }
