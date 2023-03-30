@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void first(void)__attribute__((constructor));
+void frist(void)__attribute__((constructor));
 
 /**
- * first - prints a sentence before the main
+ * frist - prints a sentence before the main
  * fucntion is executed.
  */
-void first(void)
+void frist(void)
 {
 	printf("you're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
